@@ -1,0 +1,121 @@
+{
+  "success": true,
+  "data": {
+    "id": "5957626dacfce9295ba072e0",
+    "author_id": "515005e9604b3d512109bb17",
+    "tab": "share",
+    "content": "<div class='markdown-text'><blockquote> <p>本文由我首发于 <a href='http://gitbook.cn/books/5938f4ae8b55d47644b7a445/index.html'>GitChat</a> 中。</p> </blockquote> <h2>前言</h2> <p>在 Node.js 开发领域中，原生 C++ 模块的开发一直是一个被人冷落的角落。但是实际上在必要的时候，用 C++ 进行 Node.js 的原生模块开发能有意想不到的好处。</p> <ul> <li>性能提升。很多情况下，使用 C++ 进行 Node.js 原生模块开发的性能会比纯 Node.js 开发要高，少数情况除外。</li> <li>开发成本节约。在一些即有的 C++ 代码上做封装，开发成本远远低于从零开始写 Node.js 代码。</li> <li>Node.js 无法完成的工作。个别情况，开发者只能得到一个库的静态连接库或者动态链接库以及一堆 C++ 头文件，其余都是黑盒的，这种情况就不得不使用 C++ 进行模块开发了。</li> </ul></div>",
+    "title": "从暴力到 NAN 再到 NAPI——Node.js 原生模块开发方式变迁",
+    "last_reply_at": "2021-02-19T09:16:41.124Z",
+    "good": true,
+    "top": false,
+    "reply_count": 8,
+    "visit_count": 8396,
+    "create_at": "2017-07-01T08:50:53.708Z",
+    "author": {
+      "loginname": "XadillaX",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2842176?v=4&s=120"
+    },
+    "replies": [
+      {
+        "id": "59576b0ad629da605b2f5a8d",
+        "author": {
+          "loginname": "steambap",
+          "avatar_url": "https://avatars.githubusercontent.com/u/9855651?v=4&s=120"
+        },
+        "content": "<div class='markdown-text'><p>围观大神</p> </div>",
+        "ups": [],
+        "create_at": "2017-07-01T09:27:38.858Z",
+        "reply_id": null,
+        "is_uped": false
+      },
+      {
+        "id": "5957782dd629da605b2f5a8f",
+        "author": {
+          "loginname": "hyj1991",
+          "avatar_url": "https://avatars.githubusercontent.com/u/19908330?v=4&s=120"
+        },
+        "content": "<div class='markdown-text'><p>赞赞赞！书什么时候出哇</p> <p>来自酷炫的 <a href='https: //github.com/TakWolf/CNode-Material-Design'>CNodeMD</a></p> </div>",
+        "ups": [],
+        "create_at": "2017-07-01T10:23:41.457Z",
+        "reply_id": null,
+        "is_uped": false
+      },
+      {
+        "id": "595781adacfce9295ba072e8",
+        "author": {
+          "loginname": "zy445566",
+          "avatar_url": "https://avatars.githubusercontent.com/u/14976489?v=4&s=120"
+        },
+        "content": "<div class='markdown-text'><p>什么时候node粘合C不要Python啊 用node还装个Python真的好恶心 据说大大已经commit很多代码，在node8上啊</p> </div>",
+        "ups": [
+          "593f5be18ce045ee166a14ad"
+        ],
+        "create_at": "2017-07-01T11:04:13.795Z",
+        "reply_id": null,
+        "is_uped": false
+      },
+      {
+        "id": "5957bbfc302ae0445be7df79",
+        "author": {
+          "loginname": "XadillaX",
+          "avatar_url": "https://avatars.githubusercontent.com/u/2842176?v=4&s=120"
+        },
+        "content": "<div class='markdown-text'><p><a href='/user/hyj1991'>@hyj1991</a> 预计八月初稿完成，不知道赶不赶得及</p> </div>",
+        "ups": [],
+        "create_at": "2017-07-01T15:13:00.079Z",
+        "reply_id": "5957782dd629da605b2f5a8f",
+        "is_uped": false
+      },
+      {
+        "id": "5957bc09302ae0445be7df7b",
+        "author": {
+          "loginname": "XadillaX",
+          "avatar_url": "https://avatars.githubusercontent.com/u/2842176?v=4&s=120"
+        },
+        "content": "<div class='markdown-text'><p><a href='/user/zy445566'>@zy445566</a> 应该还有很长一段路</p> </div>",
+        "ups": [],
+        "create_at": "2017-07-01T15:13:13.775Z",
+        "reply_id": "595781adacfce9295ba072e8",
+        "is_uped": false
+      },
+      {
+        "id": "595832eb545d7a7b5b0b388d",
+        "author": {
+          "loginname": "atian25",
+          "avatar_url": "https://avatars2.githubusercontent.com/u/227713?v=4&s=120"
+        },
+        "content": "<div class='markdown-text'><p>膜拜死月大大</p> </div>",
+        "ups": [],
+        "create_at": "2017-07-01T23:40:27.801Z",
+        "reply_id": null,
+        "is_uped": false
+      },
+      {
+        "id": "5f49ded068156574e6e6da11",
+        "author": {
+          "loginname": "yuu2lee4",
+          "avatar_url": "https://avatars1.githubusercontent.com/u/8046366?v=4&s=120"
+        },
+        "content": "<div class='markdown-text'><p>赞</p> </div>",
+        "ups": [],
+        "create_at": "2020-08-29T04:51:28.212Z",
+        "reply_id": null,
+        "is_uped": false
+      },
+      {
+        "id": "602f81f903d7974c5f670401",
+        "author": {
+          "loginname": "dingyuanwu",
+          "avatar_url": "https://avatars.githubusercontent.com/u/27721756?v=4&s=120"
+        },
+        "content": "<div class='markdown-text'><p>考古学家 看了死月的书，很赞，对于ABI和N-API有疑惑，特来考古</p> </div>",
+        "ups": [],
+        "create_at": "2021-02-19T09:16:41.120Z",
+        "reply_id": null,
+        "is_uped": false
+      }
+    ],
+    "is_collect": false
+  }
+}
